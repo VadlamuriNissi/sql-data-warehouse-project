@@ -5,7 +5,6 @@
 - **Columns:**
 
 | Column Name | Data Type | Description |
-| :--- | :--- | ---: |
 | customer_key | INT | Surrogate key uniquely identifying each customer |
 | customer_id | INT | Unique numerical identifier assigned to each customer |
 | customer_number | NVARCHAR(50) | Alphanumeric identifier for tracking and referencing |
