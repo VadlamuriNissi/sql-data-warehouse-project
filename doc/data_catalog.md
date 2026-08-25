@@ -5,16 +5,16 @@
 - **Columns:**
 
 | Column Name | Data Type | Description |
-| :--- | :--- | :--- |
+| :--- | :--- | ---: |
 | customer_key | INT | Surrogate key uniquely identifying each customer |
 | customer_id | INT | Unique numerical identifier assigned to each customer |
-| customer_number | NVARCHAR(50) | Alphanumeric identifier for tracking |
+| customer_number | NVARCHAR(50) | Alphanumeric identifier for tracking and referencing |
 | first_name | NVARCHAR(50) | Customer's first name |
 | last_name | NVARCHAR(50) | Customer's last name |
 | country | NVARCHAR(50) | Country of residence (e.g., 'Australia') |
 | marital_status | NVARCHAR(50) | Marital status ('Married', 'Single') |
-| gender | NVARCHAR(50) | Gender of the customer |
-| birthdate | DATE | Date of birth |
+| gender | NVARCHAR(50) | Gender of the customer (e.g., 'Male', 'Female', 'n/a')|
+| birthdate | DATE | Date of birth formatted as YYYY-MM-DD (e.g., 1971-10-06)|
 | create_date | DATE | Record creation date |
 
 ## 2. gold.dim_products
